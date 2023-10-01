@@ -1,9 +1,17 @@
-const Page = () => {
+//SEO Metadata Fetch
+export async function generateMetadata() {
+    return {
+        title: 'Services',
+        keyword: 'Services, NextJS, React, TailwindCSS, SEO, Metadata',
+    }
+}
+
+const Layout = ({children}) => {
     return (
         <div>
-            
+            {children}
         </div>
     );
 };
 
-export default Page;
+export default Layout;

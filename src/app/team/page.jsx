@@ -1,8 +1,13 @@
+import Team from "@/components/Team";
+import Contacts from "@/components/Contacts";
+import Brands from "@/components/Brands";
 const Page = () => {
     return (
-        <div>
-
-        </div>
+        <>
+            <Team/>
+            <Contacts/>
+            <Brands/>
+        </>
     );
 };
 

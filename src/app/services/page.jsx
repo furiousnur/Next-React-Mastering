@@ -1,8 +1,11 @@
+import Services from "@/components/Services";
+import Brands from "@/components/Brands";
 const Page = () => {
     return (
-        <div>
-
-        </div>
+        <>
+            <Services/>
+            <Brands/>
+        </>
     );
 };
 
